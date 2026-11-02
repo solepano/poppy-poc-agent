@@ -1,0 +1,17 @@
+{
+  "client_id": "https://solepano.github.io/poppy-poc-agent/agent-cimd.json",
+  "client_name": "Poppy Authentication Debugger",
+  "jwks_uri": "https://solepano.github.io/poppy-poc-agent/jwks.json",
+  "redirect_uris": [
+    "http://127.0.0.1:3000/oauth/callback",
+    "https://solepano.github.io/poppy-poc-agent/callback.html"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ]
+}
